@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore our collection of trendy hairstyles and book your next beauty experience at Top Hair Couture. View descriptions of each look and easily schedule an appointment.">
+  <meta name="keywords" content="hairstyles, trendy hairstyles, book hair appointment, sleek hair, ponytail, waves, hair gallery">
+  <meta property="og:title" content="Hairstyles and Descriptions - Top Hair Couture">
+  <meta property="og:description" content="Discover stylish hairstyles and book your next appointment with Top Hair Couture. Explore sleek, wavy, and voluminous looks.">
+  <meta property="og:image" content="images/hairstyle-gallery-image.jpg"> 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourwebsite.com/hairstyles.html">
+  <title>Hairstyles and Descriptions - Top Hair Couture</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+  <nav>
+    <ul>
+        <li><a href="home.html" title="Go to homepage">Home</a></li>
+        <li><a href="about.html" title="Learn more about Top Hair Couture">About</a></li>
+        <li><a href="news.html" title="Read latest news">News</a></li>
+        <li><a href="contact.html" title="Contact Top Hair Couture">Contact</a></li>
+    </ul>      
+  </nav>
+
+  
+  <div class="social-links">
+    <a href="#" target="_blank" aria-label="Facebook" title="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" target="_blank" aria-label="Instagram" title="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" target="_blank" aria-label="Twitter" title="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+
+ 
+  <section class="hairstyle-gallery">
+    <div class="hairstyle-item">
+      <img src="images/middle part.jpg" alt="Middle Part Sleek" class="hairstyle-img" loading="lazy">
+      <div class="hairstyle-description">
+        <h2>Middle Part Sleek</h2>
+        <p>The hairstyle in the image is a sleek, long, straight style with a middle part. The hair is smooth, shiny, and well-styled, falling symmetrically over the shoulders. The hairline appears to have been carefully styled, possibly using a lace front wig or extensions to give a natural and flawless finish. This look emphasizes a clean, polished aesthetic often achieved with flat ironing or professional styling techniques.</p>
+        <button class="book-now" aria-label="Book a Middle Part Sleek hairstyle">Book Now</button>
+      </div>
+    </div>
+
+    <div class="hairstyle-item">
+      <img src="images/side- part-sleek.jpg" alt="Side Part Sleek" class="hairstyle-img" loading="lazy">
+      <div class="hairstyle-description">
+        <h2>Side Part Sleek</h2>
+        <p>The hairstyle in the image features sleek, straight hair with a defined side part and sculpted baby hairs along the hairline. This style is polished and elegant, giving a smooth, glossy look. The baby hairs are styled in swoops, adding a soft yet detailed element to the look. It's a versatile style that works well for both casual and formal settings, giving a sophisticated and clean appearance.</p>
+        <button class="book-now" aria-label="Book a Side Part Sleek hairstyle">Book Now</button>
+      </div>
+    </div>
+
+    <div class="hairstyle-item">
+      <img src="images/styling.jpg" alt="High Ponytail with Curls" class="hairstyle-img" loading="lazy">
+      <div class="hairstyle-description">
+        <h2>High Ponytail with Curls</h2>
+        <p>This style features a high ponytail with voluminous, bouncy curls cascading down the sides and back. The hair is sleek and tightly pulled at the crown, giving it a polished look. A long, defined curl is styled to frame one side of the face, while the edges are carefully laid with baby hairs for a neat finish. This hairstyle exudes glam and is perfect for special occasions, adding height and sophistication.</p>
+        <button class="book-now" aria-label="Book a High Ponytail with Curls hairstyle">Book Now</button>
+      </div>
+    </div>
+
+    <div class="hairstyle-item">
+      <img src="images/side- part-waves.jpg" alt="Long Waves with Side Part" class="hairstyle-img" loading="lazy">
+      <div class="hairstyle-description">
+        <h2>Long Waves with Side Part</h2>
+        <p>This look showcases long, soft waves with a deep side part. The waves are loose and flowing, giving a natural yet elegant vibe. The baby hairs along the hairline are slicked down for a neat and polished finish. This hairstyle is versatile, ideal for both casual and formal settings, providing a timeless, classic appeal with its sleek and voluminous finish.</p>
+        <button class="book-now" aria-label="Book a Long Waves with Side Part hairstyle">Book Now</button>
+      </div>
+    </div>
+  </section>
+
+ 
+  <footer>
+    <p>&copy; <span id="current-date"></span> Top Hair Couture. All rights reserved.</p>
+  </footer>
+
+  
+  <div class="loading-animation" id="loading-animation">
+    <div class="spinner"></div>
+  </div>
+
+ 
+  <script src="date.js"></script> <!-- Link to date.js file -->
+  <script>
+    // Loading Animation
+    window.onload = function() {
+      document.getElementById("loading-animation").style.display = "none";
+    }
+  </script>
+</body>
+</html>

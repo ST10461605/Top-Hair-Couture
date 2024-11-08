@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Top Hair Couture - Midrand & Sandton Branches</title>
+    <meta name="description" content="Contact Top Hair Couture for exceptional hair services. Reach our Midrand or Sandton branches, view hours, or send us a message through our contact form.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <script src="forms.js" defer></script> 
+</head>
+<body>
+
+
+<nav>
+    <ul>
+        <li><a href="about.html" title="Learn More About Us">About</a></li>
+        <li><a href="services.html" title="Our Services">Services</a></li>
+        <li><a href="news.html" title="News and Updates">News</a></li>
+        <li><a href="home.html" title="Top Hair Couture Homepage">Home</a></li>
+    </ul>
+</nav>
+
+<div class="social-links">
+    <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+</div>
+
+<div class="container">
+    <h1 class="pink-text">Contact Us</h1>
+    <div class="contact-wrapper">
+        <div class="contact-form">
+            <!-- Contact form with JavaScript validation -->
+            <form id="contactForm" action="mailto:example@tophaircouture.com">
+                <label for="name">Name <span>*</span></label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone" pattern="[0-9]{10}">
+                
+                <label for="email">Email <span>*</span></label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message <span>*</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <p id="successMessage" style="display:none; color: rgb(128, 0, 96);">Form submitted successfully!</p>
+        </div>
+
+        
+        <div class="branch-info">
+            <h2>Midrand Branch</h2>
+            <p><strong>Location:</strong> Unit 33 Allandale Park, Cnr Le Roux Ave & Morkels Close, Halfway House, Midrand, 1685</p>
+            <p><strong>Phone:</strong> Cell: 013 365 6694</p>
+            <p><strong>Hours:</strong></p>
+            <ul>
+                <li>Weekdays: 09:00 - 18:00</li>
+                <li>Saturday: 08:00 - 16:00</li>
+                <li>Sunday: 09:00 - 15:00</li>
+            </ul>
+            
+            <h2>Sandton Branch</h2>
+            <p><strong>Location:</strong> Corner Kelvin &, Bowling Ave, Morningside, Sandton. 2191, Morning Glen Mall Shop 69</p>
+            <p><strong>Phone:</strong> Cell: 013 467 9832</p>
+            <p><strong>Hours:</strong></p>
+            <ul>
+                <li>Weekdays: 09:00 - 18:00</li>
+                <li>Saturday: 08:00 - 16:00</li>
+                <li>Sunday: 09:00 - 15:00</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
